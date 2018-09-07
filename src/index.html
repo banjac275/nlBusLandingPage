@@ -4,35 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Utilities test</title>
+  <title>TravelBus landing page example</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <div>
-      <div>
-        <p>+31 (0) 443 231 534</p>
-        <p>contact@travelbus.com</p>
+    <div class="top flexbox flex-just-space-between m-t-10">
+      <div class="top__left flexbox justify-content-flex-start">
+        <div class="flexbox flex-direction-row align-items-center"><i class="fas fa-mobile-alt"></i> <span class="top__left--num m-l-5">+31 (0) 443 231 534</span></div>
+        <div class="flexbox flex-direction-row align-items-center"><i class="far fa-envelope"></i> <span class="top__left--mail m-l-5">contact@travelbus.com</span></div>
       </div>
-      <div>
-        <input type="text">
-        <select>
-          <option value="eng">ENG</option>
-          <option value="nl">NL</option>
-        </select>
-      </div>
-      <hr>
-      <div>
-        <div>
-          <div><img src="" alt=""><span>TravelBus</span></div>
-          <nav>
-            <div>Offer</div>
-            <div>Coaches</div>
-            <div>About Us</div>
-            <div>Support</div>
-          </nav>
+      <div class="top__right flexbox flex-just-space-between align-items-center">
+        <div class="flexbox align-items-center"><input type="text"><button><i class="fas fa-search"></i></button></div>
+        <div class="top__right__select align-items-center">
+          <div class="select select__show"><img src="http://i64.tinypic.com/fd60km.png" alt="ENG"> ENG  <i class="fas fa-angle-down"></i></div>
+          <div class="select select__child">
+            <div><img src="http://i64.tinypic.com/fd60km.png" alt="ENG"> ENG</div>
+            <div><img src="http://i65.tinypic.com/2d0kyno.png" alt="NL"> NL</div>
+          </div>
         </div>
-        <button>Contact Us</button>
       </div>
+    </div>
+    <hr>
+    <div class="bottom flexbox flex-just-space-between">
+      <div class="bottom__left flexbox flex-direction-row flex-just-space-between align-items-center">
+        <div class="bottom__left__logo flexbox flex-direction-row flex-just-space-between align-items-center"><img src="./img/balllogo.png" alt="logo"><span>TravelBus</span></div>
+        <nav class="bottom__left__nav flexbox flex-just-space-between flex-direction-row">
+          <div>Offer</div>
+          <div>Coaches</div>
+          <div>About Us</div>
+          <div>Support</div>
+        </nav>
+      </div>
+      <button class="bottom__btn p-l-15 p-r-15 p-t-5 p-b-5">Contact Us</button>
     </div>
   </header>
   <section>
@@ -73,7 +77,7 @@
         <label for="time">TIME</label>
         <input type="time" name="time">
       </div>
-      <button>Search</button>
+      <button><i class="fas fa-search"></i> Search</button>
     </div>
   </section>
   <section>
@@ -98,8 +102,65 @@
       <div><div><img src="" alt=""></div><h3>Personal service</h3><h6>Get a dedicated TravelBus travel agent for advice and support.</h6></div>
     </div>
   </section>
+  <section>
+      <p>FOR EVERYONE</p>
+      <h2>Busses suited for all kinds of groups</h2>
+      <h6>Any busses, any destination, any group - we partner with hungreds of companies to find perfect travel arrangement for you.</h6>
+    <div>
+      <div><div><img src="" alt=""></div><h3>Coach</h3><h6>12 - 20 SEATS</h6></div>
+      <div><div><img src="" alt=""></div><h3>Mini touringcar</h3><h6>21 - 38 SEATS</h6></div>
+      <div><div><img src="" alt=""></div><h3>Minibus</h3><h6>8 - 20 SEATS</h6></div>
+      <div><div><img src="" alt=""></div><h3>Special bus</h3><h6>VARIOUS GROUPS</h6></div>
+    </div>
+  </section>
   <footer>
-
+    <div>
+      <div>
+        <img src="" alt="">
+        </div>
+          <h3>About TravelBus</h3>
+          <h6>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h6>
+          <a href="">Read more</a>
+        </div>
+      <div>
+        <div>
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+        <h3>Safety and quality</h3>
+        <h6>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h6>
+        <a href="">Read more</a>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <div>
+        <h3>About TravelBus</h3>
+        <div>
+          <a href="">About</a>
+          <a href="">FAQ</a>
+          <a href="">Terms & Conditions</a>
+          <a href="">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h3>Popular Cities</h3>
+        <div>
+          <a href="">Coach hire Amsterdam</a>
+          <a href="">Coach hire Rotterdam</a>
+          <a href="">Coach hire Utrecht</a>
+          <a href="">Coach hire Eindhoven</a>
+        </div>
+      </div>
+      <div>
+        <h3>Need direct advice?</h3>
+        <div>
+          <p><i class="fas fa-mobile-alt"></i> +31 (0) 443 231 534</p>
+          <p><i class="far fa-envelope"></i> contact@travelbus.com</p>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="./script.js" type="javascript"></script>
 </body>
 </html>

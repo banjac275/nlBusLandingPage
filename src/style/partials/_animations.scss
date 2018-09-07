@@ -1,0 +1,21 @@
+@keyframes height-shrink {
+  from {
+    min-height: 32px;
+    opacity: 1;
+  }
+  to {
+    min-height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes height-expand {
+  from {
+    min-height: 0;
+    opacity: 0;
+  }
+  to {
+    min-height: 32px;
+    opacity: 1;
+  }
+}
