@@ -100,13 +100,13 @@
 .justify-content-flex-start { @include justify-content(flex-start); }
 .flex-just-start { @include flex-just(flex-start); }
 
-/* flex-end */
-.justify-content-C { @include justify-content(flex-end); }
-.flex-just-C { @include flex-just(flex-end); }
+/* center */
+.justify-content-C { @include justify-content(center); }
+.flex-just-C { @include flex-just(center); }
 
 /* flex-end */
-.justify-content-flex-end { @include justify-content(center); }
-.flex-just-end { @include flex-just(center); }
+.justify-content-flex-end { @include justify-content(flex-end); }
+.flex-just-end { @include flex-just(flex-end); }
 
 /* space-between */
 .justify-content-space-between { @include justify-content(space-between); }

@@ -1,0 +1,21 @@
+.welcome {
+  background: linear-gradient(rgba(255, 0, 0, .45), rgba(255, 128, 0, .45)), url('../img/amsterdam_central.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $pure-white-color;
+  height: 600px;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  h1 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 100;
+  }
+  h5 {
+    letter-spacing: 1px;
+  }
+}

@@ -2,3 +2,7 @@ $test-background-color: #2f83e2;
 $orange-color: #f9b21b;
 $grey-color: #a7a7a7;
 $white-smoke-color: #f3f3f3;
+$pure-white-color: #fff;
+$black-color: #000;
+$transparent-black: rgba($black-color, $alpha: .4);
+$transparent-white: rgba($pure-white-color, $alpha: .7);

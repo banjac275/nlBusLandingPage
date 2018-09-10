@@ -1,0 +1,62 @@
+.plan {
+  margin-top: -50px;
+  width: 100%;
+  z-index: 2;
+  &__top {
+    text-align: left;
+    width: 80%;
+    &__card {
+      background-color: $transparent-black;
+      color: $transparent-white;
+      font-weight: 100;
+      line-height: 50px;
+      width: 33%;
+      span {
+        margin-left: 20px;
+      }
+      i {
+        margin-right: 20px;
+      }
+      &--active {
+        background-color: $pure-white-color;
+        color: $orange-color;
+      }
+      &--line {
+        border-bottom: 1px solid $grey-color;
+        content: '';
+        margin: -11px auto 0 auto;
+        opacity: .6;
+        padding-top: 10px;
+        width: 70%;
+      }
+    }
+  }
+  &__bottom {
+    -webkit-box-shadow: -1px 6px 6px 3px rgba(168,168,168,0.53);
+    -moz-box-shadow: -1px 6px 6px 3px rgba(168,168,168,0.53);
+    box-shadow: -1px 6px 6px 3px rgba(168,168,168,0.53);
+    margin-top: 1px;
+    padding: 15px 20px 15px 20px;
+    width: 80%;
+    label {
+      color: $grey-color;
+      font-size: 11px;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+      margin-left: 2px;
+    }
+    select {
+      border: 0;
+    }
+    input {
+      border: 0;
+    }
+  }
+  &__search {
+    background-color: $orange-color;
+    border: 0;
+    color: $pure-white-color;
+    line-height: 50px;
+    padding: 0 50px;
+  }
+}
