@@ -116,6 +116,10 @@
 .justify-content-space-around { @include justify-content(space-around); }
 .flex-just-space-around { @include flex-just(space-around); }
 
+/* space-evenly */
+.justify-content-space-evenly { @include justify-content(space-evenly); }
+.flex-just-space-evenly { @include flex-just(space-evenly); }
+
 /*--------------------------------------------------------------------*/
 
 .align-items-def { @include align-items; }

@@ -1,0 +1,47 @@
+footer {
+  height: 600px;
+  width: 100%;
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  hr {
+    width: 100%;
+  }
+}
+
+.footer__top {
+  width: 60%;
+  &--card {
+    height: 350px;
+    text-align: center;
+    width: 220px;
+  }
+  h5 {
+    color: $transparent-black;
+  }
+  a {
+    color: $orange-color;
+  }
+}
+
+.footer__bottom {
+  width: 60%;
+  &--card {
+    height: 200px;
+    width: 220px;
+    a, p {
+      color: $transparent-black;
+      text-decoration: none;
+    }
+    i {
+      color: $orange-color;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 866px) {
+  footer {
+    margin-top: 1060px !important;
+  }
+}

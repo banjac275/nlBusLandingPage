@@ -26,10 +26,10 @@
       </div>
     </div>
     <hr>
-    <div class="bottom flexbox flex-just-space-between">
+    <div class="bottom flexbox flex-just-space-between flex-wrap-wrap">
       <div class="bottom__left flexbox flex-direction-row flex-just-space-between align-items-center">
         <div class="bottom__left__logo flexbox flex-direction-row flex-just-space-between align-items-center"><img src="./img/balllogo.png" alt="logo"><span>TravelBus</span></div>
-        <nav class="bottom__left__nav flexbox flex-just-space-between flex-direction-row">
+        <nav class="bottom__left__nav flexbox flex-just-space-between flex-direction-row flex-wrap-wrap">
           <div>Offer</div>
           <div>Coaches</div>
           <div>About Us</div>
@@ -50,10 +50,10 @@
         <div class="flexbox flex-direction-row flex-just-space-between align-items-center"><span>One way</span> <i class="fas fa-long-arrow-alt-up"></i></div>
         <div class="plan__top__card--line"></div>
       </div>
-      <div class="plan__top__card flexbox flex-direction-row flex-just-space-between align-items-center"><span>Return</span> <i class="fas fa-exchange-alt fa-rotate-90"></i></div>
-      <div class="plan__top__card flexbox flex-direction-row flex-just-space-between align-items-center"><span>Custom</span> <i class="fas fa-exchange-alt"></i></div>
+      <div class="plan__top__card flexbox flex-direction-row flex-just-space-between align-items-center"><span class="ret">Return</span> <i class="fas fa-exchange-alt fa-rotate-90"></i></div>
+      <div class="plan__top__card flexbox flex-direction-row flex-just-space-between align-items-center"><span class="cust">Custom</span> <i class="fas fa-exchange-alt"></i></div>
     </div>
-    <div class="plan__bottom flexbox flex-direction-row flex-just-space-between align-items-center">
+    <div class="plan__bottom flexbox flex-direction-row flex-just-space-between align-items-center flex-wrap-wrap">
       <div class="flexbox flex-direction-col">
         <label for="from">FROM</label>
         <select name="from" id="from">
@@ -83,119 +83,141 @@
       <button class="plan__search"><i class="fas fa-search"></i> Search</button>
     </div>
   </section>
-  <section class="popular flexbox flex-direction-col flex-just-space-between align-items-center">
+  <section class="popular flexbox flex-direction-col flex-just-space-between align-items-center m-b-20">
     <div class="popular__heading flexbox flex-direction-col flex-just-C align-items-center">
       <h5>POPULAR</h5>
       <h2>Most visited destinations</h2>
     </div>
-    <div class="popular__images flexbox flex-direction-row flex-just-space-between align-items-center">
+    <div class="popular__images flexbox flex-direction-row flex-just-C align-items-center flex-wrap-wrap">
       <div class="popular__images__left flexbox flex-just-C align-items-center"><i class="fas fa-angle-left"></i></div>
       <div class="popular__images__card popular__images__card--first flexbox flex-just-end flex-direction-col">
         <h4>Amsterdam</h4>
         <h6>At TravelBus we value quality and safety and therefore we only work with certified transport.</h6>
       </div>
-      <div class="popular__images__card popular__images__card--second flexbox flex-just-end flex-direction-col">
+      <div class="popular__images__card popular__images__card--second flex-just-end flex-direction-col">
         <h4>Rotterdam</h4>
         <h6>At TravelBus we value quality and safety and therefore we only work with certified transport.</h6>
       </div>
-      <div class="popular__images__card popular__images__card--third flexbox flex-just-end flex-direction-col">
+      <div class="popular__images__card popular__images__card--third flex-just-end flex-direction-col">
         <h4>Utrecht</h4>
         <h6>At TravelBus we value quality and safety and therefore we only work with certified transport.</h6>
       </div>
-      <div class="popular__images__card popular__images__card--fourth flexbox flex-just-end flex-direction-col">
+      <div class="popular__images__card popular__images__card--fourth flex-just-end flex-direction-col">
         <h4>Eindhoven</h4>
         <h6>At TravelBus we value quality and safety and therefore we only work with certified transport.</h6>
       </div>
       <div class="popular__images__right flexbox flex-just-C align-items-center"><i class="fas fa-angle-right"></i></div>
     </div>
   </section>
-  <section class="choose flexbox flex-direction-col flex-just-C align-items-center m-t-50">
+  <section class="choose flexbox flex-direction-col flex-just-C align-items-center">
     <h5>CHOOSE</h5>
     <h2>Why use TravelBus?</h2>
     <h4>Praesent in lacus eu felis tempor. Cras pretium iaculis orci a feugiat. Etiam commodo finibus risus eget dignissim.</h4>
-    <div class="choose__bottom flexbox flex-just-space-between align-items-center flex-direction-row">
+    <div class="choose__bottom flexbox flex-just-space-between align-items-center flex-direction-row flex-wrap-wrap">
       <div class="choose__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
         <div class="choose__bottom__card--pic flexbox flex-just-C align-items-center">
           <i class="far fa-clock"></i>
         </div>
         <h3>Save time</h3>
-        <h5>Save your itinerary once and receive multiple quotes.</h5>
+        <h6>Save your itinerary once and receive multiple quotes.</h6>
       </div>
       <div class="choose__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
         <div class="choose__bottom__card--pic flexbox flex-just-C align-items-center">
           <i class="fas fa-hand-holding-usd"></i>
         </div>
         <h3>Save money</h3>
-        <h5>Save 15%-40% by comparing different price quotes.</h5>
+        <h6>Save 15%-40% by comparing different price quotes.</h6>
       </div>
       <div class="choose__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
         <div class="choose__bottom__card--pic flexbox flex-just-C align-items-center">
           <i class="fas fa-user-friends"></i>
         </div>
         <h3>Personal service</h3>
-        <h5>Get a dedicated TravelBus travel agent for advice and support.</h5>
+        <h6 class="m-b-10">Get a dedicated TravelBus travel agent for advice and support.</h6>
       </div>
     </div>
   </section>
-  <section class="everyone">
+  <section class="everyone flexbox flex-direction-col flex-just-C align-items-center m-t-30">
       <h5>FOR EVERYONE</h5>
       <h2>Busses suited for all kinds of groups</h2>
-      <h6>Any busses, any destination, any group - we partner with hungreds of companies to find perfect travel arrangement for you.</h6>
-    <div>
-      <div><div><img src="" alt=""></div><h3>Coach</h3><h6>12 - 20 SEATS</h6></div>
-      <div><div><img src="" alt=""></div><h3>Mini touringcar</h3><h6>21 - 38 SEATS</h6></div>
-      <div><div><img src="" alt=""></div><h3>Minibus</h3><h6>8 - 20 SEATS</h6></div>
-      <div><div><img src="" alt=""></div><h3>Special bus</h3><h6>VARIOUS GROUPS</h6></div>
+      <h4 class="m-b-50">Any busses, any destination, any group - we partner with hungreds of companies to find perfect travel arrangement for you.</h4>
+    <div class="everyone__bottom flexbox flex-just-space-between align-items-center flex-direction-row flex-wrap-wrap">
+      <div class="everyone__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
+        <div class="everyone__bottom__card--pic m-b-30">
+          <img src="./img/transporter.png" class="everyone__bottom__card--flip" alt="coach">
+        </div>
+        <h3>Coach</h3>
+        <h6>12 - 20 SEATS</h6>
+      </div>
+      <div class="everyone__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
+        <div class="everyone__bottom__card--pic m-b-30">
+          <img src="./img/mini-bus-png-3.png" class="everyone__bottom__card--flip"  alt="touringcar">
+        </div>
+        <h3>Mini touringcar</h3>
+        <h6>21 - 38 SEATS</h6>
+      </div>
+      <div class="everyone__bottom__card everyone__bottom--enlarged flexbox flex-just-C align-items-center flex-direction-col">
+        <div class="everyone__bottom__card--pic m-b-30">
+          <img src="./img/transporter.png" class="everyone__bottom__card--flip"  alt="minibus">
+        </div>
+        <h3>Minibus</h3>
+        <h6>8 - 20 SEATS</h6>
+      </div>
+      <div class="everyone__bottom__card flexbox flex-just-C align-items-center flex-direction-col">
+        <div class="everyone__bottom__card--pic m-b-30">
+          <img src="./img/bus_PNG8615.png" alt="bus">
+        </div>
+        <h3>Special bus</h3>
+        <h6>VARIOUS GROUPS</h6>
+      </div>
     </div>
   </section>
-  <footer>
-    <div>
-      <div>
-        <img src="" alt="">
-        </div>
-          <h3>About TravelBus</h3>
-          <h6>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h6>
-          <a href="">Read more</a>
-        </div>
-      <div>
-        <div>
-          <img src="" alt="">
-          <img src="" alt="">
+  <footer class="flexbox flex-direction-col flex-just-C align-items-center m-b-20">
+    <div class="footer__top flexbox flex-just-space-between align-items-center flex-direction-row">
+      <div class="footer__top--card p-t-50">
+        <img src="./img/balllogo.png" alt="logo">
+        <h3>About TravelBus</h3>
+        <h5>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h5>
+        <a href="#">Read more</a>
+      </div>
+      <div class="footer__top--card p-t-50">
+        <div class="flexbox flex-just-space-evenly align-items-center flex-direction-row">
+          <img src="./img/sktb_transparent.png" alt="sktb">
+          <img src="./img/sgr-1-logo-png-transparent.png" alt="sgr">
         </div>
         <h3>Safety and quality</h3>
-        <h6>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h6>
-        <a href="">Read more</a>
+        <h5>At TravelBus we value quality and safety and therefore we only work with certified transport companies that meet these standards.</h5>
+        <a href="#">Read more</a>
       </div>
     </div>
     <hr>
-    <div>
-      <div>
+    <div class="footer__bottom flexbox flex-just-space-between align-items-center flex-direction-row flex-wrap-wrap">
+      <div class="footer__bottom--card flexbox flex-direction-col flex-just-C align-items-center">
         <h3>About TravelBus</h3>
-        <div>
-          <a href="">About</a>
-          <a href="">FAQ</a>
-          <a href="">Terms & Conditions</a>
-          <a href="">Contact</a>
+        <div class="flexbox flex-direction-col flex-just-start">
+          <a href="#">About</a>
+          <a href="#">FAQ</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact</a>
         </div>
       </div>
-      <div>
+      <div class="footer__bottom--card flexbox flex-direction-col flex-just-C align-items-center">
         <h3>Popular Cities</h3>
-        <div>
-          <a href="">Coach hire Amsterdam</a>
-          <a href="">Coach hire Rotterdam</a>
-          <a href="">Coach hire Utrecht</a>
-          <a href="">Coach hire Eindhoven</a>
+        <div class="flexbox flex-direction-col flex-just-space-evenly">
+          <a href="#" class="p-l-10">Coach hire Amsterdam</a>
+          <a href="#" class="p-l-10">Coach hire Rotterdam</a>
+          <a href="#" class="p-l-10">Coach hire Utrecht</a>
+          <a href="#" class="p-l-10">Coach hire Eindhoven</a>
         </div>
       </div>
-      <div>
+      <div class="footer__bottom--card flexbox flex-direction-col flex-just-C align-items-center">
         <h3>Need direct advice?</h3>
-        <div>
-          <p><i class="fas fa-mobile-alt"></i> +31 (0) 443 231 534</p>
-          <p><i class="far fa-envelope"></i> contact@travelbus.com</p>
+        <div class="flexbox flex-direction-col flex-just-space-evenly">
+          <p class="p-l-10 m-t-10"><i class="fas fa-mobile-alt"></i> +31 (0) 443 231 534</p>
+          <p class="p-l-10 m-t-10"><i class="far fa-envelope"></i> contact@travelbus.com</p>
         </div>
       </div>
     </div>
   </footer>
-  <script src="./script.js" type="javascript"></script>
 </body>
 </html>

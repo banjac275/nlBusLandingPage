@@ -19,3 +19,14 @@
     letter-spacing: 1px;
   }
 }
+
+@media screen and (min-width: 320px) {
+  .welcome {
+    h1 {
+      font-size: 28px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
+}

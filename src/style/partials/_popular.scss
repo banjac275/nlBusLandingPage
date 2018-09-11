@@ -13,13 +13,14 @@
   }
   &__images {
     height: 400px;
-    width: 80%;
+    width: 85%;
     &__card {
       background-repeat: no-repeat;
       color: $pure-white-color;
       font-weight: 100;
-      height: 100%;
+      height: 400px;
       letter-spacing: 1px;
+      margin: 10px;
       padding: 0 10px;
       width: 260px;
       &--first {
@@ -31,16 +32,19 @@
         background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/the_rotterdam_building.jpg');
         background-position: center;
         background-size: auto 400px;
+        display: flex;
       }
       &--third {
         background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/utrecht.jpg');
         background-position: center left;
         background-size: auto 400px;
+        display: flex;
       }
       &--fourth {
         background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/eindhoven.jpg');
         background-position: center left;
         background-size: auto 400px;
+        display: flex;
       }
       h4, h6 {
         font-weight: 100;
@@ -54,5 +58,30 @@
     &__right {
       color: $orange-color;
     }
+  }
+}
+
+@media screen and (max-width: 1349px) {
+  .popular__images__card--fourth {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .popular__images__card--third {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .popular__images__card--second {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .popular__images__card {
+    height: 370px;
+    width: 212px;
   }
 }

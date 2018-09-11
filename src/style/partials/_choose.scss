@@ -18,10 +18,48 @@
         height: 100px;
         width: 100px;
       }
-      h5 {
+      h6 {
         color: $transparent-black;
+        font-size: 15px;
         text-align: center;
       }
     }
+  }
+  h4 {
+    color: $transparent-black;
+  }
+  h5 {
+    color: $orange-color;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .choose__bottom {
+    height: 800px;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .choose h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 630px;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .choose {
+    &__bottom {
+      height: 1200px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 705px) {
+  .choose h4 {
+    width: 310px;
   }
 }
